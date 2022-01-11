@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+}
+.timer-count {
+  font-size: 100px;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.utility-buttons {
+  height: 50px;
+  width: 130px;
+  border-radius: 8px;
+  font-size: 25px;
+}
+.start {
+  background-color: green;
+}
+.stop {
+  background-color: yellow;
+}
+.reset {
+  background-color: red;
+}
+.save {
+  background-color: blue;
+}
+.list {
+  width: 35%;
+  margin: 100px;
+  font-size: 40px;
+  height: auto;
+}
+.dark {
+  color: white;
+  background: black;
+}
+.switch-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  font-size: 20px;
+}
+.dark-switch {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  width: 100px;
+  border-radius: 60px;
+  border: 1px solid black;
+  transition: 1s;
+}
+.switch-ball {
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid black; */
+  background: black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.switch-title {
+  margin-bottom: -1px;
+}
+.switch-box-active {
+  border: 1px solid white;
+  background: green;
+}
+.switch-active {
+  background: white;
+  margin-left: 50px;
+}
+.none {
+  display: none;
+}
